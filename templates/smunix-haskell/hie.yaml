@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "./project/lib"
+      component: "lib:project"
+
+    - path: "./project/app/Top.hs"
+      component: "project:exe:project-exe"
+
+    - path: "./project/app/Paths_project.hs"
+      component: "project:exe:project-exe"

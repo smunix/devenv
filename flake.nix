@@ -101,9 +101,20 @@
               ```
             '';
           };
+
+          smunix-haskell = {
+            path = ./templates/smunix-haskell;
+            description = "A direnv supported Nix flake with devenv and haskell integration.";
+            welcomeText = ''
+              # `.devenv` should be added to `.gitignore`
+              ```sh
+                echo .devenv >> .gitignore
+              ```
+            '';
+          };
         in
         {
-          inherit simple flake-parts;
+          inherit simple flake-parts smunix-haskell;
           terraform = {
             path = ./templates/terraform;
             description = "A Terraform Nix flake with devenv integration.";
