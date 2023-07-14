@@ -155,11 +155,11 @@
         "nixpkgs-stable": "nixpkgs-stable"
       },
       "locked": {
-        "lastModified": 1685889334,
-        "narHash": "sha256-zWwVIXKAvl0E0e8rmTwYH5Uyf66CmZWyRJLljCGhZuE=",
+        "lastModified": 1689293164,
+        "narHash": "sha256-qk9n4HUFiHQ9aPT/OLDCudxPnN4qAcyWnp1dG7GqcLI=",
         "owner": "smunix",
         "repo": "pre-commit-hooks.nix",
-        "rev": "e04dd8f275dcdd8ae7a895cd884aa5cc186f82d5",
+        "rev": "a0f6d66f24b31398fa5ab5916925af116097c66d",
         "type": "github"
       },
       "original": {
